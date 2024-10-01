@@ -1,0 +1,744 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Tâche de validation bootstrap</title>
+</head>
+<body>
+  <!-- -----------------------navbar--------------------- -->
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="logo.jpg" style="width:60px;" alt=""></a>
+      <button class="navbar-toggler  text-warning bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse  " id="navbarTogglerDemo02">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-warning" href="index.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning" href="produits.html">Liste des produits
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning " href="produits les plus vendus.html">Les produits les plus vendus
+            </a>
+          </li>
+          <form class="d-flex">
+            <input class="form-control m-auto " type="search" placeholder="Search" aria-label="Search">
+            <i class="fa-solid fa-cart-shopping text-warning mt-3 fs-4 px-3 "></i>
+
+          </form>
+        </ul>
+        <div class="btn1">
+            <a href="Inscription.html">
+        <button class="btn btn-outline-warning " type="submit">S'inscrire</button></a>
+          <a href="Connexion.html"> <button class="btn btn-outline-warning px-2" type="submit">Se connecter</button></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- ---------------------------Accueil----------------------- -->
+ <section id="Accueil">
+    <div class="container">
+  <div class="row ">
+    <div class="col-md-12">
+      <h1 class="text-center text-warning mt-5 fs-2 fw-bold mb-5">Liste des produits</h1>
+    </div>
+<div class="d-flex accueil1">
+    <div class="mada17">
+        <div class="card" style="width: 16rem; height:24rem;">
+            <img src="vetement1.jpg" class="card-img-top w-100 " alt="...">
+            <div class="card-body">
+              <p class="card-text text-warning fw-bold  ">cintre
+                vêtements</p>
+                <p class="fs-6 text-warning fw-bold ">100£ </p>
+            </div>
+                    <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="bouton">
+            <i class="fa-solid fa-plus text-warning i fw-bold fs-6"></i>
+          </button>
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <h2 class="text-center text-upercase py-5 text-warning">cintre
+                    vêtements</h2>
+                  <div class="w-50 mx-auto">
+                    <img src="vetement1.jpg" class="w-100" alt="une image">
+                  </div>
+                  <p class="w-50 mx-auto text-warning">lorem ipsum dolar sit amet , consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
+                    sit vero unde ,sed incidunt et ea quo dolore laudantium consecteur!
+                </p>
+                </div>
+                <div class="modal-footer justify-content-end">
+                  <button class="btn bg-warning text-white " type="submit">Commander</button>
+                </div>
+          
+              </div>
+            </div>
+          </div>
+        </div>  
+        </div>
+        <div class="mada17">
+          <div class="card" style="width: 16rem; height:24rem;">
+              <img src="vetement2.jpg" class="card-img-top w-100" alt="...">
+              <div class="card-body">
+                <p class="card-text text-warning fw-bold ">cintre
+                    vêtements</p>
+                  <p class="fs-6  fw-bold text-warning ">150£</p>
+              </div>
+            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop1" id="bouton">
+              <i class="fa-solid fa-plus text-warning i fw-bold fs-6 "></i>                  
+            </button>
+            <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <h2 class="text-center text-upercase py-5 text-warning">cintre
+                        vêtements</h2>
+                    <div class="w-50 mx-auto">
+                      <img src="vetement2.jpg" class="w-100" alt="une image">
+                    </div>
+                    <p class="w-50 mx-auto text-warning mt-3">lorem ipsum dolar sit amet , consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
+                      sit vero unde , sed incidunt et ea quo dolore laudantium consecteur!
+                  </p>
+                  </div>
+                  <div class="modal-footer justify-content-end">
+                      <button class="btn bg-warning text-white  " type="submit">Commander</button>
+                    </div>
+    
+                </div>
+              </div>
+            </div>
+          </div>    
+          </div>
+          <div class="mada17">
+            <div class="card" style="width: 16rem;height:24rem;">
+                <img src="habit1.jpg" class="card-img-top card-img" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-warning">
+                   </p>
+                    <p class="fs-6 fw-bold text-warning">mode
+                        femme
+                        vêtements</p>
+                        <p class=" fs-6 fw-bold text-warning">100£</p>
+                  </div>
+                  <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop2" id="bouton">
+                    <i class="fa-solid fa-plus text-warning i fw-bold fs-6"></i>                        
+                  </button>
+                  <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <h2 class="text-center text-upercase py-5 text-warning ">mode
+                            femme
+                            vêtements</h2>
+                          <div class="w-50 mx-auto">
+                            <img src="habit1.jpg" class="w-100" alt="une image">
+                          </div>
+                          <p class="w-50 mx-auto text-warning mt-3">lorem ipsum dolar sit amet , consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
+                            sit vero unde , sed incidunt et ea quo dolore laudantium consecteur!
+                        </p>
+                        </div>
+                        <div class="modal-footer justify-content-end">
+                            <button class="btn bg-warning text-white " type="submit">Commander</button>
+                          </div>
+          
+                      </div>
+                    </div>
+                  </div>
+                </div>              
+                </div>
+             <div class="mada17">
+              <div class="card" style="width: 16rem;height:24rem;">
+                  <img src="habit4.jpg" class="card-img-top card-img" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-warning">
+                     </p>
+                      <p class="fs-6 text-warning fw-bold">mode
+                        femme
+                        vêtements</p>
+                          <p class="text-warning fs-6 fw-bold">100£</p>
+                  </div>
+                  <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop4" id="bouton">
+                    <i class="fa-solid fa-plus text-warning i fw-bold fs-6"></i>
+                  </button>
+                  <div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static"
+                   data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" 
+                   aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <h2 class="text-center text-upercase py-5 text-warning">mode
+                            femme
+                            vêtements</h2>
+                          <div class="w-50 mx-auto">
+                            <img src="habit4.jpg" class="w-100" alt="une image">
+                          </div>
+                          <p class="w-50 mx-auto text-warning mt-3">lorem ipsum dolar sit amet , consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
+                            sit vero unde , sed incidunt et ea quo dolore laudantium consecteur!
+                        </p>
+                        </div>
+                        <div class="modal-footer justify-content-end">
+                            <button class="btn bg-warning text-white " type="submit">Commander</button>
+                          </div>
+          
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+        <div class="d-flex accueil2">
+          <div class="mada17">
+              <div class="card" style="width: 16rem;height:24rem;">
+                  <img src="vetement3.jpg" class="card-img-top w-100" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-warning fw-bold ">cintre
+                        vêtements</p>
+                      <p class="fs-6 text-warning fw-bold">150£</p>
+                  </div>
+                  <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop5" id="bouton">
+                    <i class="fa-solid fa-plus text-warning i fw-bold fs-6 "></i>
+                  </button>
+                  <div class="modal fade" id="staticBackdrop5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <h2 class="text-center text-upercase py-5 text-warning">cintre
+                            vêtements</h2>
+                          <div class="w-50 mx-auto">
+                            <img src="vetement3.jpg" class="w-100" alt="une image">
+                          </div>
+                          <p class="w-50 mx-auto text-warning">lorem ipsum dolar sit amet , consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
+                            sit vero unde , sed incidunt et ea quo dolore laudantium consecteur!
+                        </p>
+                        </div>
+                        <div class="modal-footer justify-content-end">
+                            <button class="btn bg-warning text-white " type="submit">Commander</button>
+                          </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>    
+                </div>
+          <div class="mada17">
+                <div class="card mada" style="width: 16rem;height:24rem;">
+                    <img src="vetement5.jpg" class="card-img-top w-100" alt="...">
+                    <div class="card-body">
+                      <p class="card-text text-warning fw-bold ">cintre
+                        vêtements</p>
+                        <p class="fs-6  fw-bold text-warning">200£</p>
+                    </div>
+                    <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop6" id="bouton">
+                      <i class="fa-solid fa-plus text-warning i fw-bold fs-6  "></i>
+                    </button>
+                    <div class="modal fade" id="staticBackdrop6" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <h2 class="text-center text-upercase py-5 text-warning">cintre
+                                vêtements</h2>
+                            <div class="w-50 mx-auto">
+                              <img src="vetement5.jpg" class="w-100" alt="une image">
+                            </div>
+                            <p class="w-50 mx-auto text-warning mt-3">lorem ipsum dolar sit amet , consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
+                              sit vero unde , sed incidunt et ea quo dolore laudantium consecteur!
+                          </p>
+                          </div>
+                          <div class="modal-footer justify-content-end">
+                              <button class="btn bg-warning text-white " type="submit">Commander</button>
+                            </div>
+            
+                        </div>
+                      </div>
+                    </div>
+                  </div> 
+                  </div>
+                        <div class="mada17">
+                  <div class="card" style="width: 16rem;height:24rem;">
+                      <img src="vetement6.jpg" class="card-img-top card-img" alt="...">
+                      <div class="card-body">
+                        <p class="card-text text-warning">
+                         </p>
+                          <p class="fs-6 fw-bold text-warning">vêtement enfant</p>
+                              <p class=" fs-6 fw-bold text-warning">100£</p>
+                      </div>
+                      <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop7" id="bouton">
+                        <i class="fa-solid fa-plus text-warning i fw-bold fs-6"></i>
+                                  </button>
+                      <div class="modal fade" id="staticBackdrop7" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <h2 class="text-center text-upercase py-5 text-warning">vêtement enfant</h2>
+                              <div class="w-50 mx-auto">
+                                <img src="vetement6.jpg" class="w-100" alt="une image">
+                              </div>
+                              <p class="w-50 mx-auto text-warning mt-3">lorem ipsum dolar sit amet , consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
+                                sit vero unde , sed incidunt et ea quo dolore laudantium consecteur!
+                            </p>
+                            </div>
+                            <div class="modal-footer justify-content-end">
+                                <button class="btn bg-warning text-white " type="submit">Commander</button>
+                              </div>
+              
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  <div class="mada17">
+                    <div class="card" style="width: 16rem;height:24rem;">
+                        <img src="vetement7.jpg" class="card-img-top card-img" alt="...">
+                        <div class="card-body">
+                          <p class="card-text text-warning">
+                           </p>
+                            <p class="fs-6 text-warning fw-bold">Cintre, Vêtements</p>
+                                <p class="text-warning fs-6 fw-bold">100£</p>
+                        </div>
+                        <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop8" id="bouton">
+                          <i class="fa-solid fa-plus text-warning  i fw-bold fs-6 "></i>
+                        </button>
+                        <div class="modal fade" id="staticBackdrop8" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <h2 class="text-center text-upercase py-5 text-warning">Cintre, Vêtements</h2>
+                                <div class="w-50 mx-auto">
+                                  <img src="vetement7.jpg" class="w-100" alt="une image">
+                                </div>
+                                <p class="w-50 mx-auto mt-3 text-warning">lorem ipsum dolar sit amet , consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
+                                  sit vero unde , sed incidunt et ea quo dolore laudantium consecteur!
+                              </p>
+                              </div>
+                              <div class="modal-footer justify-content-end">
+                                  <button class="btn  bg-warning text-white " type="submit">Commander</button>
+                                </div>
+                
+                            </div>
+                          </div>
+                        </div>
+                      </div>  
+                      </div>
+                      </div>
+        <div class="d-flex accueil3">
+          <div class="mada17">
+              <div class="card" style="width: 16rem;height:24rem;">
+                  <img src="vetement1.jpg" class="card-img-top w-100" alt="...">
+                  <div class="card-body">
+                    <p class="card-text text-warning fw-bold ">Cintre, Vêtements</p>
+                      <p class="fs-6 text-warning fw-bold">150£ </p>
+                  </div>
+                  <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="bouton">
+                    <i class="fa-solid fa-plus text-warning i fw-bold fs-6 "></i>
+                  </button>
+                  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="w-50 mx-auto">
+                            <img src="vetement1.jpg" class="w-100" alt="une image">
+                          </div>
+                          <p class="w-50 mx-auto text-warning">lorem ipsum dolar sit amet , consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
+                            sit vero unde , sed incidunt et ea quo dolore laudantium consecteur!
+                        </p>
+                        </div>
+                        <div class="modal-footer justify-content-end">
+                            <button class="btn  bg-warning text-white " type="submit">Commander</button>
+                          </div>
+          
+                      </div>
+                    </div>
+                  </div>
+                </div>   
+                </div>
+                  <div class="mada17">
+                <div class="card" style="width: 16rem;height:24rem;">
+                    <img src="vetement5.jpg" class="card-img-top w-100" alt="...">
+                    <div class="card-body">
+                      <p class="card-text text-warning fw-bold ">Cintre, Vêtements</p>
+                        <p class="fs-6  fw-bold text-warning">200£</p>
+                    </div>
+                    <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop9" id="bouton">
+                      <i class="fa-solid fa-plus text-warning i fw-bold fs-6 "></i>
+                    </button>
+                    <div class="modal fade" id="staticBackdrop9" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <h2 class="text-center text-upercase py-5 text-warning">Cintre, Vêtements</h2>
+                            <div class="w-50 mx-auto">
+                              <img src="vetement5.jpg" class="w-100" alt="une image">
+                            </div>
+                            <p class="w-50 mx-auto mt-3 text-warning">lorem ipsum dolar sit amet , consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
+                              sit vero unde , sed incidunt et ea quo dolore laudantium consecteur!
+                          </p>
+                          </div>
+                          <div class="modal-footer justify-content-end">
+                              <button class="btn  bg-warning text-white " type="submit">Commander</button>
+                            </div>            
+                        </div>
+                      </div>
+                    </div>
+                  </div>  
+                  </div>
+                <div class="mada17">
+                  <div class="card" style="width: 16rem;height:24rem;">
+                      <img src="vetement4.jpg" class="card-img-top card-img" alt="...">
+                      <div class="card-body">
+                        <p class="card-text text-warning">
+                         </p>
+                          <p class="fs-6 fw-bold text-warning">Jeans, Les Pantalons</p>
+                              <p class=" fs-6 fw-bold text-warning">90£</p>
+                      </div>
+                      <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop10" id="bouton">
+                        <i class="fa-solid fa-plus text-warning i fw-bold fs-6 "></i>
+                      </button>
+                      <div class="modal fade" id="staticBackdrop10" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <h2 class="text-center text-upercase py-5 text-warning">Jeans, Les Pantalons</h2>
+                              <div class="w-50 mx-auto">
+                                <img src="vetement4.jpg"class="w-100" alt="une image">
+                              </div>
+                              <p class="w-50 mx-auto text-warning mt-3">lorem ipsum dolar sit amet , consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
+                                sit vero unde , sed incidunt et ea quo dolore laudantium consecteur!
+                            </p>
+                            </div>
+                            <div class="modal-footer justify-content-end">
+                                <button class="btn bg-warning text-white" type="submit">Commander</button>
+                              </div>
+              
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                      <div class="mada17">
+                    <div class="card" style="width: 16rem;height:24rem;">
+                        <img src="habit2.jpg" class="card-img-top card-img" alt="...">
+                        <div class="card-body">
+                          <p class="card-text text-warning">
+                           </p>
+                            <p class="fs-6 text-warning fw-bold">mode
+                                femme
+                                vêtements</p>
+                                <p class="text-warning fs-6 fw-bold">100£</p>
+                        </div>
+                      <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop11" id="bouton">
+                        <i class="fa-solid fa-plus text-warning i fw-bold fs-6 "></i>
+                      </button>
+                      <div class="modal fade" id="staticBackdrop11" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <h2 class="text-center text-upercase py-5 text-warning">mode
+                                femme
+                                vêtements</h2>
+                              <div class="w-50 mx-auto">
+                                <img src="habit2.jpg" class="w-100" alt="une image">
+                              </div>
+                              <p class="w-50 mx-auto mt-3 text-warning">lorem ipsum dolar sit amet , consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
+                                sit vero unde , sed incidunt et ea quo dolore laudantium consecteur!
+                            </p>
+                            </div>
+                            <div class="modal-footer justify-content-end">
+                                <button class="btn bg-warning text-white" type="submit">Commander</button>
+                              </div>
+              
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                      </div>
+                    <div class="d-flex accueil4">
+                <div class="mada17">
+                    <div class="card" style="width: 16rem;height:24rem;">
+                        <img src="vetement7.jpg" class="card-img-top w-100" alt="...">
+                        <div class="card-body">
+                          <p class="card-text text-warning fw-bold ">Cintre, Vêtements</p>
+                            <p class="fs-6 text-warning fw-bold">100£ </p>
+                        </div>
+                        <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="bouton">
+                          <i class="fa-solid fa-plus text-warning i fw-bold fs-6 "></i>
+                        </button>
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-xl">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <h2 class="text-center text-upercase py-5">portfolio</h2>
+                                <div class="w-50 mx-auto">
+                                  <img src="vetement7.jpg" alt="une image">
+                                </div>
+                                <p class="w-50 mx-auto">lorem ipsum dolar sit amet , consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
+                                  sit vero unde , sed incidunt et ea quo dolore laudantium consecteur!
+                              </p>
+                              </div>
+                              <div class="modal-footer justify-content-end">
+                                  <button class="btn btn-outline-warning " type="submit">Commander</button>
+                                </div>
+                
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                       <div class="mada17">
+                      <div class="card" style="width: 16rem;height:24rem;">
+                          <img src="vetement2.jpg" class="card-img-top w-100" alt="...">
+                          <div class="card-body">
+                            <p class="card-text text-warning fw-bold ">Cintre, Vêtements</p>
+                              <p class="fs-6  fw-bold text-warning">150£</p>
+                          </div>
+                          <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop12" id="bouton">
+                            <i class="fa-solid fa-plus text-warning i fw-bold fs-6 "></i>
+                          </button>
+                          <div class="modal fade" id="staticBackdrop12" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  <h2 class="text-center text-upercase py-5 text-warning">Cintre, Vêtements</h2>
+                                  <div class="w-50 mx-auto">
+                                    <img src="vetement2.jpg" class="w-100" alt="une image">
+                                  </div>
+                                  <p class="w-50 mx-auto text-warning mt-3">lorem ipsum dolar sit amet , consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
+                                    sit vero unde , sed incidunt et ea quo dolore laudantium consecteur!
+                                </p>
+                                </div>
+                                <div class="modal-footer justify-content-end">
+                                    <button class="btn bg-warning text-white" type="submit">Commander</button>
+                                  </div>
+                  
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        </div>              
+                          <div class="mada17">
+                        <div class="card" style="width: 16rem;height:24rem;">
+                            <img src="habit4.jpg" class="card-img-top card-img" alt="...">
+                            <div class="card-body">
+                              <p class="card-text text-warning">
+                               </p>
+                                <p class="fs-6 fw-bold text-warning">mode femme vêtements</p>
+                                    <p class=" fs-6 fw-bold text-warning">100£</p>
+                            </div>
+                            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop13" id="bouton">
+                              <i class="fa-solid fa-plus text-warning i fw-bold fs-6 "></i>
+                            </button>
+                            <div class="modal fade" id="staticBackdrop13" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                              <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <h2 class="text-center text-upercase py-5 text-warning">mode femme vêtements</h2>
+                                    <div class="w-50 mx-auto">
+                                      <img src="habit4.jpg" class="w-100" alt="une image">
+                                    </div>
+                                    <p class="w-50 mx-auto mt-3 text-warning">lorem ipsum dolar sit amet , consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
+                                      sit vero unde , sed incidunt et ea quo dolore laudantium consecteur!
+                                  </p>
+                                  </div>
+                                  <div class="modal-footer justify-content-end">
+                                      <button class="btn  bg-warning text-white " type="submit">Commander</button>
+                                    </div>                    
+                                </div>
+                              </div>
+                            </div>
+                          </div>         
+                          </div>
+                            <div class="mada17">
+                          <div class="card" style="width: 16rem;height:24rem;">
+                              <img src="habit3.jpg" class="card-img-top card-img" alt="...">
+                              <div class="card-body">
+                                <p class="card-text text-warning">
+                                 </p>
+                                  <p class="fs-6 text-warning fw-bold">costume
+                                    nœud papillon</p>
+                                      <p class="text-warning fs-6 fw-bold">280£</p>
+                                      <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop14" id="bouton">
+                                        <i class="fa-solid fa-plus text-warning ii fw-bold fs-6 "></i>
+                                      </button>
+                                      <div class="modal fade" id="staticBackdrop14" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                              <h2 class="text-center text-upercase py-5 text-warning">costume
+                                                nœud papillon</h2>
+                                              <div class="w-50 mx-auto">
+                                                <img src="habit3.jpg" class="w-100" alt="une image">
+                                              </div>
+                                              <p class="w-50 mx-auto text-warning mt-3">lorem ipsum dolar sit amet , consecteur adipiscing elit. Sunt ut voluptatum eius sapiente , totam reciendis temploribus qui quibusdam
+                                                sit vero unde , sed incidunt et ea quo dolore laudantium consecteur!
+                                            </p>
+                                            </div>
+                                            <div class="modal-footer justify-content-end">
+                                                <button class="btn  bg-warning text-white " type="submit">Commander</button>
+                                              </div>
+                              
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>                              
+                                    </div>
+                             </div>
+                            </div>
+                           </div>
+</section>
+<!-- ----------------------footer------------------------- -->
+<footer class="footer text-warning mt-5">
+  <div class="container-fluid sombre pt-5 pb-0">
+      <div class="container">
+          <div class="footer1">
+              <div class="row">
+                  <div class="col-md-3">
+                     
+                      <p class="mt-2">
+                          IdrissShop est une boutique de shopping en ligne créer en 2006.Elle vend tout ce qui est
+                          vêtements
+                      </p>
+                  </div>
+                  <div class="col-md-2 col-6">
+                      <h6>IdrissShop</h6>
+                      <ul class="list-unstyled">
+                          <li>Qui Sommes Nous?</li>
+                          <li>Notre equipe</li>
+                          <li>Nos Services</li>
+                          <li>Prix et distinctions</li>
+                      </ul>
+                  </div>
+                  <div class="col-md-2 col-6">
+                      <h6>ÉVÉNEMENTS</h6>
+                      <ul class="list-unstyled">
+                          <li>Dons de vêtements</li>
+                          <li>Dinner de Gala</li>
+                      </ul>
+                  </div>
+                  <div class="col-md-2 col-5">
+                      <h6>Nos Startups</h6>
+                      <ul class="list-unstyled">
+                          <li>AÏCHA</li>
+                      </ul>
+                  </div>
+                  <div class="col-md-3 col-7">
+                      <h6>CONTACT</h6>
+                      <ul class="list-unstyled">
+                          <li><i class="fa-solid fa-location-dot px-2"></i>Liberté-6-Extension</li>
+                          <li><i class="fa-solid fa-phone px-2"></i> (+221) 70-827-70-65</li>
+                          <li><i class="fa-solid fa-envelope px-2"></i>contact@IdrissShop.sn</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="icone d-flex justify-content-center mt-4">
+                  <i class="fa-brands fa-facebook fs-4 px-2"></i>
+                  <i class="fa-brands fa-twitter fs-4 px-2"></i>
+                  <i class="fa-brands fa-linkedin fs-4 px-2"></i>
+              </div>
+              <div class="copyrights d-flex justify-content-between mt-5">
+                  <p class="fw-light">&copy; 2024 Tous droits réservés - IdrissShop SARL</p>
+                  <p class="fw-bold">Mentions légales</p>
+                  <p class="fw-bold">Politique de confidentialité</p>
+              </div>
+          </div>
+
+      </div>
+  </div>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
